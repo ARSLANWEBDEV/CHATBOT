@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LinkedIn Messaging Panel</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="messaging-panel" id="messagingPanel">
+        <div class="header">
+            <h2>Messaging</h2>
+            <div class="header-buttons">
+                <button class="minimize-btn">&#9660;</button>
+                <button class="close-btn">&times;</button>
+            </div>
+        </div>
+        <div class="search-container">
+            <input type="text" placeholder="Search messages" class="search-input">
+            <button class="filter-btn">Filter</button>
+            <div class="filter-options">
+                <button class="filter-option">Spam</button>
+                <button class="filter-option">Unread</button>
+                <button class="filter-option">InMail</button>
+            </div>
+        </div>
+        <div class="tabs">
+            <button class="tab-btn active">Focused</button>
+            <button class="tab-btn">Other</button>
+        </div>
+        <div class="messages-list">
+            <!-- Messages will be appended here dynamically -->
+        </div>
+        <div class="new-message-container">
+            <input type="text" placeholder="Type a message" class="new-message-input">
+            <button class="send-btn">Send</button>
+        </div>
+    </div>
+
+
+
+
+
+
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
